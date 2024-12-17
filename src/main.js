@@ -17,6 +17,9 @@ const gameConfig = {
     height: 1997,
     autoCenter: Phaser.Scale.CENTER_BOTH,
   },
+  loader: {
+    imageLoadType: 'HTMLImageElement'
+  },
   scene: [Preloader, Game, EndCard],
 };
 
